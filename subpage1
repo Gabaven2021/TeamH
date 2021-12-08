@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+<title>佐賀大学生のための飲食店紹介サイトです</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+<script src="js/jquery1.7.2.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+
+<body id="subpage">
+<header id="header">
+	<h1>佐賀大学生のための飲食店紹介サイトです</h1>
+  <!-- ロゴ -->
+	<div class="logo">
+		<a href="index.html">こんなところに！をお手伝い<br /><span>小規模飲食店支援サイト</span></a>
+	</div>
+	<!-- / ロゴ -->
+</header>
+
+<!-- メインナビゲーション -->
+<nav id="mainNav">
+	<div class="inner">
+  	<a class="menu" id="menu"><span>MENU</span></a>
+		<div class="panel">   
+    	<ul>
+    		<li><a href="index.html"><strong>トップページ</strong><span></span></a></li>
+				<li><a href="subpage2.html"><strong>真ん中周辺の地図</strong><span></span></a></li>
+				<li class="last"><a href="subpage3.html"><strong>佐賀大学周辺の地図</strong><span></span></a></li>
+			</ul>   
+    </div>
+	</div> 
+</nav>
+<!-- / メインナビゲーション -->
+
+<div id="wrapper">
+  
+  <!-- コンテンツ -->
+	<section id="main">
+  
+  	<!-- メイン画像 -->
+		<div id="mainBanner">
+			<img src="images/mainImg2.jpg" width="660" height="140" alt="">
+    	<div class="slogan">
+				<h2>こんなところに！をお手伝いします</h2>
+			<p>佐賀駅から通学する学生のおなかを満たします。<br>佐賀大学の学生と小規模飲食店の架け橋です。</p>
+			</div>
+		</div>
+		<!-- / メイン画像 -->
+       <section class="content" id="gallery">
+			<h3 class="heading">佐賀駅周辺の地図</h3>
+				<article>
+					<figure class="grid"><a href="subpage1.html"><img src="images/gallery1.jpeg" width="900" height="700" alt=""></a></figure>
+				</article>
+		</section>
+    
+	</section>
+	<!-- / コンテンツ -->
+
+    <aside id="sidebar">
+       
+		<h3 class="heading">このあたりのオススメのお店</h3>
+    <article>
+			<ul>
+				<li><a href="subpage.html">環境への取り組みについての説明ページです</a></li>
+			</ul>
+    </article>
+    
+	</aside>
+ 
+</div>
+
+    <address>Copyright(c) 2021 gababen Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
+
+</body>
+</html>
